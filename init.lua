@@ -617,7 +617,7 @@ require('lazy').setup({
       vim.list_extend(ensure_installed, {
         'lua_ls', -- Lua Language server
         'stylua', -- Used to format Lua code
-        -- You can add other tools here that you want Mason to install
+        'typescript-language-server', -- TypeScript/JavaScript LSP
       })
 
       require('mason-tool-installer').setup { ensure_installed = ensure_installed }
